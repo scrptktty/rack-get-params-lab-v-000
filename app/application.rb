@@ -1,6 +1,6 @@
 class Application
 
-  @@cart = []
+  @@cart = ["Apples","Carrots","Pears"]
   @@items = []
 
   def call(env)
