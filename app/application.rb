@@ -30,4 +30,4 @@ class Application
 
     resp.finish
   end
-end # Application 
+end # Application
