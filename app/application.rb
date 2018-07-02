@@ -13,6 +13,7 @@ class Application
       else
         @@cart.each { |item| resp.write "#{item}\n" }
       end
+
     elsif req.path.match(/add/)
       add_item = req.params["q"]
 
@@ -22,6 +23,7 @@ class Application
       else
         resp.write "We don't have that item"
       end
+
     else
       resp.write "Path not found"
     end
